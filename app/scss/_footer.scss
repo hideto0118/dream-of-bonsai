@@ -1,0 +1,37 @@
+/***********************
+footer
+***********************/
+footer{
+  background-color: $black;
+  color: #fff;
+  text-align: center;
+  height: 75px;
+}
+
+.flex-container-footer{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 100%;
+}
+
+.flex-item-footer{
+  width: 50%;
+}
+
+.footer-text{
+  text-align: left;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+.sns-logos{
+  display: inline-block;
+  text-align: right;
+  padding-right: 10px;
+  i{
+    margin: 0 3px;
+    font-size: 1.5rem;
+  }
+}

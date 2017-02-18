@@ -1,0 +1,32 @@
+$black: #000;
+$green: #678768;
+$darkblue: #060959;
+
+/***********************
+global
+***********************/
+body{
+  background-color: #fff;
+  color: $black;
+  /*font-family: 'Crimson Text', serif;*/
+  font-family: 'Halant', serif;
+}
+
+img{
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+  &:hover,
+  &:visited {
+    outline: none;
+  }
+}
+
+
+
+

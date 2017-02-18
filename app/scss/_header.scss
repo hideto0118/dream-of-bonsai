@@ -1,0 +1,128 @@
+/***********************
+header
+***********************/
+header{
+  background-color: $black;
+  color: #fff;
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+.header-top-content{
+  padding: 0.8rem;
+}
+
+.logo-title{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.bonsai-logo{
+  display: inline;
+  width: 30px;
+}
+
+/* for header-top-content*/
+.fixed{
+  z-index: 101;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/*hamburger*/
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:3px 18px 0px 18px;
+  color:#fff;
+  border:0;
+  font-size:2em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:100;
+}
+
+.cross{
+  background:none;
+  position:fixed;
+  top:0px;
+  right:0;
+  padding:5px 20px 0px 20px;
+  color:#fff;
+  border:0;
+  font-size: 4em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:100;
+}
+
+.navbar{
+  height: 100%;
+  z-index:10;
+  font-weight:bold;
+  font-size:2em;
+  width:100%;
+  background: $black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align:center;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 5rem 0 0 0;
+  list-style-type: none;
+  list-style-image: none;
+}
+
+.navbar li {
+  display: block;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+.navbar li:hover{
+  display: block;
+  background:#181818;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+.navbar ul li a {
+  display: block;
+  width: 100%;
+  text-decoration:none;
+  padding: 20px 0;
+  margin: 0px;
+  color:#fff;
+  border-bottom: 2px solid transparent;
+}
+
+/*.glyphicon-home{
+  color:white;
+  font-size:1.5em;
+  margin-top:5px;
+  margin:0 auto;
+}*/
+
+/*.navbar{
+  display: inline-block;
+}
+
+.nav{
+  display: inline-block;
+  li{
+    display: table-cell;
+    a{
+    margin: 0.5rem;
+    }
+  }
+}*/

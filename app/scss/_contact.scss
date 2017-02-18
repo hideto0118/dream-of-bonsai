@@ -1,0 +1,49 @@
+.contact-h1{
+  padding: 2rem;
+}
+
+.contact_item{
+  padding: 2.5rem 2rem;
+}
+
+.contact_item:nth-child(2){
+  padding-top: 0;
+}
+
+.contact_item:last-child{
+  margin-bottom: 3rem;
+}
+
+.contact_item_title{
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+.contact_item_info{
+  a{
+    color: $black;
+  }
+}
+
+.mail{
+  color: $black;
+}
+
+.showroom-title{
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.6rem 0 0;
+}
+
+.map{
+  color: $black;
+    font-family: 'Ubuntu', sans-serif;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    &:hover{
+      -webkit-transition: all .3s ease-in;
+      transition: all .3s ease-in;
+      border-bottom: 2px solid currentColor;
+    }
+  }

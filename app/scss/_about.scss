@@ -1,0 +1,66 @@
+/***********************
+about
+***********************/
+.jumbotron-about{
+  background: url("../img/bonsai_master.jpg") center center no-repeat;
+  background-size: cover;
+  background-color: $black;
+  color: #fff;
+  height: auto;
+  width: 100%;
+  .intro-statement{
+    text-align: left;
+    padding: 55% 0 1%;
+  }
+}
+
+.about-content-text{
+  margin: 10%;
+}
+
+.about_item{
+  margin: 1rem auto 3rem;
+  width: 95%;
+}
+
+.contact-jump__outer {
+  text-align: right;
+  margin-right: 2%;
+  margin-bottom: 5%;
+}
+
+
+.contact-jump {
+  font-family: 'Ubuntu', sans-serif;
+  margin-right: 2%;
+  display: inline-block;
+  text-align: right;
+  color: rgba(0,0,0,0.5);
+  -webkit-transition: all .3s ease-in;
+  border-bottom: 2px solid transparent;
+  transition: all .3s ease-in;
+  &:hover{
+    color: $black;
+    -webkit-transition: all .3s ease-in;
+    border-bottom: 2px solid #000;
+  }
+}
+
+@media only screen and (min-width: 700px){
+  .about-content-text{
+    margin: 10% 4%;
+  }
+
+  .about_item{
+    margin: 0 2% 5%;
+  }
+
+  .flex-item-3-col{
+    width: 28%;
+  }
+
+  .flex-container-space-about{
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+}
